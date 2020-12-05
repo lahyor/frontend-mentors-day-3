@@ -1,0 +1,44 @@
+
+.flex-container{
+    background-color: hsl(228, 45%, 44%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.inner-card{
+    background-color: white;
+    background-image: url(../../images/bg-pattern-desktop.svg),url(../../images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 80%, 45%;
+    background-position: -23em, -3em;
+    width: 70%;
+    height: 70%;
+    border-radius: 1em;
+}
+.box{
+    position: absolute;
+    left: 5em;
+    top: 18em;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: right;
+    height: 100%;
+    float: right;
+    margin-right: 6em;
+}
+p{
+    border-bottom: 1px solid black;
+    font-weight: lighter;
+    font-size: small;
+}
+span{
+    margin-right: -3em;
+}
+
+
+
+
